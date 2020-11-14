@@ -1,29 +1,29 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'SpeedSul',
+  tagline: 'Site em desenvolvimento',
+  url: 'https://speedsul.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'SpeedSul', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SpeedSul',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'SpeedSul contabil',
+        src: 'img/logo.png',
       },
       links: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Sobre',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'services', label: 'Serviços', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://speedsul/contato',
+          label: 'Contato',
           position: 'right',
         },
       ],
@@ -32,50 +32,55 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Serviços',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Nota fiscal',
+              to: '/fiscal',
+              title: 'Nota fiscal eletronica'
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Outros assuntos',
+              to: 'contato/outros',
+              title: 'Outros assuntos'
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Redes Sociais',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Nossa Empresa',
+              href: '/',
+              title: 'Nossa Epmresa',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: '/',
+              title: 'Facebook'
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Instagram',
+              href: '/',
+              title: 'Instagram'
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Links Uteis',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Contato',
+              to: 'contato',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Acesso Remoto',
+              href: 'https://download.anydesk.com/AnyDesk.exe?_ga=2.9706549.1231778997.1605359504-558363078.1605359504',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} speedsul.com.`,
     },
   },
   presets: [

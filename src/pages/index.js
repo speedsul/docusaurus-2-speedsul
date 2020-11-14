@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Speedsul</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Fornecemos serviços de consultoria contábil no seguimento de provedor de internet.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Provedores de Internet</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Estamos aqui para te ajudar regularizar a sua situação fiscal.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Estamos te aguardando</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        E ai com muitas duvidas ou dificulade em se adequar, estamos aqui para ajudar..
       </>
     ),
   },
@@ -59,7 +56,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`SpeeedSull ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -72,7 +69,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/doc1')}>
-              Get Started
+              Saiba Mais
             </Link>
           </div>
         </div>
