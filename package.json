@@ -13,8 +13,10 @@
     "@docusaurus/core": "^2.0.0-alpha.54",
     "@docusaurus/preset-classic": "^2.0.0-alpha.54",
     "classnames": "^2.2.6",
+    "eslint-config-prettier-standard": "^3.0.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "styled-components": "^5.2.1"
   },
   "browserslist": {
     "production": [
@@ -27,5 +29,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5"
   }
 }
