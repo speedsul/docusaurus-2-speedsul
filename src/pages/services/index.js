@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import SvgServices from "../../componets/svg/SvgServices";
 import * as S from "./styled";
 import Card from "./../../componets/card/index";
 
@@ -18,9 +17,7 @@ function Services() {
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
-        <Card />
+
       </S.Container>
     </Layout>
   );

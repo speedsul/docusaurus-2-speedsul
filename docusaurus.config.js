@@ -51,17 +51,17 @@ module.exports = {
           items: [
             {
               label: 'Nossa Empresa',
-              href: '/',
+              href: '/nossa-empresa',
               title: 'Nossa Epmresa',
             },
             {
               label: 'Facebook',
-              href: '/',
+              href: '/facebook',
               title: 'Facebook'
             },
             {
               label: 'Instagram',
-              href: '/',
+              href: '/instagran',
               title: 'Instagram'
             },
           ],
